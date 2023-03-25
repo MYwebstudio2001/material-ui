@@ -7,4 +7,7 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'material-ui-angular';
+
+  links = [{ route: '/table', name: 'Table' }];
+  activeLink = this.links[0].route;
 }
