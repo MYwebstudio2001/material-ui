@@ -4,7 +4,7 @@ import { MatTableComponent } from './mat-table/mat-table.component';
 
 const routes: Routes = [
   {
-    path:'table',
+    path:'',
     component:MatTableComponent
   },
   {
